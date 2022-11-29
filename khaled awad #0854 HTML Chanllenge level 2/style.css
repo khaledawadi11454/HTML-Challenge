@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(273deg, #0a0138d9 , #00000059);
+    ;
+}
+
+header{
+    background: linear-gradient(273deg, #e9040469 , #00000059);
+    width: 100em;
+    height: 4em;
+}
+.menu-list{
+    align-items: center;
+    display: flex;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: 'sen' , serif;
+}
+.menu-list-item{
+    display: flex;
+    list-style: none;
+}
+.menu{
+    float: left;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    line-height: normal;
+}
+.menu li{
+    display: block;
+    float: left;
+    width: 176px;
+    font-size: 26px;
+}
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+   
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+   
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn28 {
+    background-image: linear-gradient(
+      to right,
+      #3963eb,
+      #000ba5,
+      #020068,
+      #d7e237
+    );
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+  }
